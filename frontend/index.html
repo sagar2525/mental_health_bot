@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Mental Health Bot</title>
+</head>
+<body>
+  <div id="auth">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+    <button onclick="signup()">Signup</button>
+  </div>
+  <div id="chat" style="display:none;">
+    <h2>Chat</h2>
+    <div id="chat-box"></div>
+    <input type="text" id="message" placeholder="Type a message" />
+    <button onclick="sendMessage()">Send</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
